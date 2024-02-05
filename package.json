@@ -1,0 +1,22 @@
+{
+  "name": "sanber53-kelompok19",
+  "version": "1.0.0",
+  "description": "Quiz 3 - Sanber 53 Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukesubaikaahs/Sanber53-Kelompok19.git"
+  },
+  "author": "yukesubaikaahs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukesubaikaahs/Sanber53-Kelompok19/issues"
+  },
+  "homepage": "https://github.com/yukesubaikaahs/Sanber53-Kelompok19#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}

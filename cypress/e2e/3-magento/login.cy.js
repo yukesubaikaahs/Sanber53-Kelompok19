@@ -31,6 +31,16 @@ it('Failed Login - Login Menggunakan Password Kosong', () => {
 
 })
 
+it('Failed Login - Login Menggunakan PAssword Salah', () => {
+  cy.visit('https://magento.softwaretestingboard.com/') 
+  ProcessToCheckOut.SignIn()
+  cy.get('#email').type("19group@gmail.com")
+  cy.get('#pass').type("test")
+  cy.get('#send2').click()
+  cy.wait(6000)
+
+})
+
   it('Sukses Login - Menggunakan Valid Data', () => {
     cy.visit('https://magento.softwaretestingboard.com/') 
     ProcessToCheckOut.SignIn()
